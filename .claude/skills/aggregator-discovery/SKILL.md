@@ -57,6 +57,18 @@ or drafted in the tracker.
 - **Discovery:** search `preferred_categories`, qualify against the criteria
   in the doc, update `growth/aggregator-targets.csv` (append/update rows,
   never delete history).
+- **Check the target's requirements on the *submitting* repo itself, not just
+  on the list.** Some targets gate entries on properties of the candidate
+  project (e.g. minimum star count, verified/major-org status, license,
+  release age) rather than just having an open contribution process — read
+  the actual inclusion rule, not just "PR (direct)" vs "issue-first", and
+  check it against ebase's current stats (`gh api repos/embeddingvc/ebase
+  --jq '.stargazers_count'`), not last run's cached number. If ebase doesn't
+  meet a hard, explicit gate, mark `excluded` with the exact rule quoted in
+  notes rather than drafting anyway — don't burn a draft slot on a target
+  that will auto-reject on a property no amount of wording fixes. (Seen so
+  far: `subinium/awesome-claude-code` requires 1000+ stars on the candidate
+  repo; `aloth/awesome-ai-agents` requires >100 stars or a major org.)
 - **Drafting:** for qualified high-priority targets with no open
   draft/issue/PR/merge/rejection, fetch the live README/CONTRIBUTING, write
   the smallest compliant change under
