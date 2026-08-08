@@ -2,7 +2,7 @@
 
 - Target repo: https://github.com/angrykoala/awesome-browser-automation
 - Category: browser automation
-- Status: draft prepared, AWAITING HUMAN APPROVAL — not submitted
+- Status: **SUBMITTED** 2026-08-08, approved by Ruoqi — https://github.com/angrykoala/awesome-browser-automation/pull/137
 - Action type: direct PR (fork, branch, edit README.md, PR)
 - Contribution guidelines: `CONTRIBUTING.md` at repo root. Explicitly welcomes self-submission
   ("Additions of your own tools or resources are welcome, as long as they are awesome,
