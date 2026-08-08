@@ -2,7 +2,7 @@
 
 - Target repo: https://github.com/alternbits/awesome-ai-agents
 - Category: AI agents
-- Status: draft prepared, AWAITING HUMAN APPROVAL — not submitted
+- Status: **SUBMITTED** 2026-08-08, approved by Ruoqi — https://github.com/alternbits/awesome-ai-agents/pull/69
 - Action type: direct PR — **not a README edit**. This list is generated from per-entry YAML
   files under `data/`; a CI action (`alternbits/opendata`) validates and auto-compiles README.md
   from those files on push/PR. `CONTRIBUTING.md` explicitly says "Do not edit `README.md`

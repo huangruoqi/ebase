@@ -2,7 +2,7 @@
 
 - Target repo: https://github.com/punkpeye/awesome-mcp-servers
 - Category: MCP
-- Status: draft prepared, AWAITING HUMAN APPROVAL — not submitted
+- Status: **SUBMITTED** 2026-08-08, approved by Ruoqi — https://github.com/punkpeye/awesome-mcp-servers/pull/11744
 - Action type: direct PR (fork, branch, edit README.md, PR — standard flow in `CONTRIBUTING.md`)
 - Contribution guidelines: `CONTRIBUTING.md` at repo root. Self-submission explicitly permitted,
   no star/license gate found. Maintainer note: PRs from automated agents get fast-tracked if the
